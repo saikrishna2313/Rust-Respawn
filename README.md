@@ -2,6 +2,7 @@
 
 **Rust Respawn** is a personal learning repository created while revisiting Rust
 after a long break.  
+
 It contains coursework and hands-on exercises from the Udemy course:
 
 > **“Rust: The Complete Developer's Guide”**  
@@ -12,17 +13,12 @@ It contains coursework and hands-on exercises from the Udemy course:
 ## Purpose
 
 This repository serves as a structured space to refresh and strengthen core Rust
-concepts through small, focused projects and exercises.  
+concepts through small, focused Exercises.  
 
-Each project explores one or more fundamental topics.
+Each exercise explores one or more fundamental topics.
 ---
 
-## Repository Contents
-
-This repository includes multiple independent Rust projects, each located in its
-own subdirectory.  
-
-Most projects are intentionally minimal and focus on demonstrating specific
+Most Exercises are intentionally minimal and focus on demonstrating specific
 language features or concepts.
 
 ---
@@ -35,7 +31,7 @@ including (but not limited to):
 - Rust’s ownership model and borrowing rules for safe and efficient memory
   management
 - Enum types and pattern matching
-- Creating and organizing Rust projects using modules
+- Creating and organizing Rust Exercises using modules
 - Error handling patterns in Rust
 - Rust’s iterator system for efficient data processing
 - Generic types and traits
