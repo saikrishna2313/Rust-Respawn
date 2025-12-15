@@ -13,18 +13,15 @@ It contains coursework and hands-on exercises from the Udemy course:
 
 This repository serves as a structured space to refresh and strengthen core Rust
 concepts through small, focused projects and exercises.  
-Each project explores one or more fundamental topics, emphasizing clarity,
-correctness, and idiomatic Rust practices.
 
-The goal is not to build production-ready software, but to develop a solid and
-confident understanding of Rust’s core principles.
-
+Each project explores one or more fundamental topics.
 ---
 
 ## Repository Contents
 
 This repository includes multiple independent Rust projects, each located in its
 own subdirectory.  
+
 Most projects are intentionally minimal and focus on demonstrating specific
 language features or concepts.
 
