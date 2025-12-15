@@ -12,10 +12,9 @@ It contains coursework and hands-on exercises from the Udemy course:
 
 ## Purpose
 
-This repository serves as a structured space to refresh and strengthen core Rust
+This repository serves as a space to refresh and strengthen some of the Rust fundamental
 concepts through small, focused Exercises.  
 
-Each exercise explores one or more fundamental topics.
 ---
 
 Most Exercises are intentionally minimal and focus on demonstrating specific
