@@ -1,30 +1,31 @@
 
 #[derive(Debug)]
-struct Deck{  
+struct Deck{
     cards:Vec<String>
 }
 
-impl Deck {
+impl Deck{
+     fn new()->Self{
 
-    fn new()->Self{
-        
-         Deck { cards:vec![] }
-    }
-    
-    fn add_cards(&mut self,cards:Vec<String>){
+        let suits=["Hearts","Daimonds","Spades"];
+        let values=["One","Two","Ace"];
+        let mut cards=vec![];
 
-       self.cards=cards;
+        for suite in suits{
+             for value in values{
+                cards.push(format!("{} of {}",suite,value));
+             }
+        }
 
-    }
+        Deck{cards}
+     }
 }
-fn main() {
-    let mut deck=Deck::new();
 
-    println!("{:#?}",deck); 
 
-    let cards=vec![String::from("Ace"),String::from("Queen"),String::from("King")];
+fn main(){
+    
+    let deck = Deck::new();
+    println!("Deck of Cards:{:#?}",deck);
+   
 
-    deck.add_cards(cards);
-
-    println!("{:#?}",deck);
 }
