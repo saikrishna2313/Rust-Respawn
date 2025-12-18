@@ -67,14 +67,17 @@ fn main() {
 
     acc2.deposit(200);
     acc2.withdraw(50);
+    
+    println!("{}",acc1.summary());
 
     acc3.deposit(500);
-
+    println!("{}",acc1.summary());
     // Add accounts to the bank
     bank.add_account(acc1);
     bank.add_account(acc2);
     bank.add_account(acc3);
-
+    
+    println!("{:#?}",bank.accounts_summary());
 
     for summary in bank.accounts_summary() {
         println!("{}", summary);
