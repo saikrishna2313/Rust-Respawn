@@ -57,10 +57,13 @@ fn main() {
     let mut acc1 = Account::new(1, "Varma");
     let mut acc2 = Account::new(2, "Alice");
     let mut acc3 = Account::new(3, "Bob");
-
+    
+    
     // Perform transactions
     acc1.deposit(100);
     acc1.withdraw(20);
+
+    println!("{}",acc1.summary());
 
     acc2.deposit(200);
     acc2.withdraw(50);
